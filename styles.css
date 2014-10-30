@@ -1,11 +1,38 @@
-	p {
-	color: red;
-	}	
-
-	.green {
-	color: green; 
-	} 
-
-	#post {
-	color: yellow;
-	}
+html, body {
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	font-size: 24px;
+	line-height: 1.65;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+.post-content {
+	width: 60%;
+	margin: 0 auto;
+}
+img {
+	max-width: 100%;
+}
+div {
+	display: block;
+}
+h1 {
+	font-size:72px;
+	line-height: 1.5;
+}
+#post-title {
+	border-bottom: 8px solid black;
+	line-height: 1.1;
+	margin-bottom: 0;
+}
+.post-meta {
+	overflow: auto;
+}
+.post-author {
+	display: block;
+	float: left;
+}
+.post-published {
+	display: block;
+	float: right;
+}
